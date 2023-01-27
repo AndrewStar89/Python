@@ -5,5 +5,5 @@ for key in per_cent:
     deposit.append(per_cent[key] * money / 100)
 annual_deposit = list(map(int, deposit))
 max_deposit = round(max(deposit))
-print(annual_deposit)
+print('deposit =', annual_deposit)
 print('Максимальная сумма, которую вы можете заработать — ' + str(max_deposit) + ' руб.')
